@@ -19,8 +19,8 @@ jobs:
          run: |
            sudo rm -rf /usr/share/dotnet /etc/mysql /etc/php /etc/apt/sources.list.d
            docker rmi `docker images -q`
-           git config --global user.name "ProgrammingError"
-           git config --global user.email "iam.pro2@outlook.com"         
+           git config --global user.name "buddhhu"
+           git config --global user.email "amitsharma123234@gmail.com"         
            sudo -E apt-get -y purge azure-cli ghc* zulu* hhvm llvm* firefox google* dotnet* powershell openjdk* mysql* php*
            sudo -E apt-get clean 
            sudo apt install expect -y
